@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	background-color: grey;
+	background-color: #EF5350;
 	font-family: helvetica;
+	font-size: 1.6em;
 }
 .main{
 	display: flex;
@@ -10,7 +11,6 @@ body{
 .editor{
 	width: 50%;
 	height: 100%;
-	color: grey;
 }
 .preview{
 	width: 50%;
