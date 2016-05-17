@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	background-color: grey;
+	font-family: helvetica;
+}
+.main{
+	display: flex;
+	height: 100vh;
+}
+.editor{
+	width: 50%;
+	height: 100%;
+	color: grey;
+}
+.preview{
+	width: 50%;
+	color: white;
+}
+.main .editor .CodeMirror{
+	height: 100%;
+}
