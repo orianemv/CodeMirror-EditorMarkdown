@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var localS = localStorage.getItem('localS');
+var localS = localStorage.getItem('textHtml');
 
 	function start(){
 		var editor = CodeMirror.fromTextArea(document.getElementById('markdown'), {
@@ -12,7 +12,7 @@ var localS = localStorage.getItem('localS');
 		editor.on('change', function(){
 			var val = editor.getValue();
 			document.getElementById('textHtml').innerHTML= marked (val);
-			localStorage.setItem('localS', 'editor');
+			localStorage.setItem('textHtml', val);
 		})
 	}
 	start();
